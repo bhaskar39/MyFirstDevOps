@@ -1,6 +1,6 @@
 #!/bin/sh      
 ssh azure-admin@13.93.108.131 <<EOF        
- cd /your-project-path  
+ cd /myproject
  git pull       
  npm install --production       
  pm2 restart all
