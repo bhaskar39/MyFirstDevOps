@@ -24,4 +24,4 @@ describe("SAMPLE unit test",function(){
   });
 
 });
-// this is end
+// this is end of the script
