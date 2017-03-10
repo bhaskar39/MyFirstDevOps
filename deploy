@@ -1,5 +1,5 @@
-#!/bin/sh      
-ssh -o StrictHostKeyChecking=no  azure-admin@13.93.108.131 /bin/bash <<EOF        
+#!/bin/sh
+ssh -o StrictHostKeyChecking=no  azure-admin@13.93.108.131 /bin/bash <<EOF
  mkdir -p  myproject
  git clone https://github.com/bhaskar39/MyFirstDevOps.git myproject
  cd myproject
