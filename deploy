@@ -1,9 +1,8 @@
 #!/bin/sh      
 ssh -o StrictHostKeyChecking=no  azure-admin@13.93.108.131 /bin/bash <<EOF        
  mkdir -p  myproject
- cd /myproject
- git pull
- npm install --production
+ git clone https://github.com/bhaskar39/MyFirstDevOps.git myproject
+ cd myproject
+ npm install
  pm2 restart all
- exit
 EOF
