@@ -1,6 +1,5 @@
 #!/bin/sh      
 ssh azure-admin@13.93.108.131 <<EOF        
- mkdir myproject
  cd /myproject
  git pull       
  npm install --production       
